@@ -1,0 +1,251 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+        background-image: url(../img/space_background.jpg);
+        background-position: bottom center;
+        background-size: cover;
+}
+
+h1 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 2em;
+    color: #cc3333;
+    font-weight: 900;
+    text-shadow: 0px 1px 5px #888888;
+}
+
+h2 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.25em;
+    color: #ff9933;
+    font-weight: 700;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    color: #333333;
+    font-size: .8em;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid grey;
+    box-shadow: 0px 2px 6px #888888;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding-bottom: 30px;
+    margin-bottom: 80px;
+}
+
+.flex-container {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height:30px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.flex-item {
+    width: 100%;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    flex: 1 0 auto;
+    
+    max-height: 500px;
+    background-image: url(../img/moderneats.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.flex-item:before {
+    content:'';
+    float:left;
+    padding-top:100%;
+}
+
+.flex-item:last-child {
+    max-height: 500px;
+}
+
+@media only screen and (min-width: 760px) {
+    
+    .flex-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .flex-item {
+        width: 33%;
+    }
+}
+
+    /* Header */
+
+    header {
+        width: 100%;
+        height: 160px;
+        text-align: center;
+    }
+
+    header svg {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 60%;
+        margin: auto;
+        max-width: 225px;
+    }
+
+/* Color Blocks */
+
+    .colors {
+        margin: 10px;
+        width: 30%;
+        flex: 1 0 auto;
+        box-shadow: 0px 10px 15px #888888;
+        text-align: center;
+        border-radius: 0;
+        -webkit-transition: border-radius 0.35s;
+        transition-timing-function: ease-out;
+        max-width: 50%;
+    }
+
+    .colors:hover {
+        border-radius: 50%;
+    }
+
+    @media screen and (min-width: 900px) {
+        .colors {
+            width: 10%;
+        } 
+    }
+
+    p.hexcode {
+        position: relative;
+        top: 70%;
+        transform: translateY(-50%);
+        color: white;
+        font-family: "Orbitron", sans-serif;
+        font-size: 1em;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+    }
+
+    #red {
+        background: #cc3333;
+    }
+
+    #orange {
+        background: #ff9933;
+    }
+
+    #grey {
+        background: #565856;
+    }
+
+    #blue {
+        background: #002a54;
+    }
+    
+    #darkblue {
+        background: #00001a;
+    }
+
+    .colors:before {
+        content:'';
+        float:left;
+        padding-top: 100%;
+    }
+
+    /* Typography */
+
+    .typography {
+        width: 100%;
+        flex: 1 0 auto;
+        padding: 1em;
+    }
+
+    @media screen and (min-width: 675px) {
+        .typography {
+            width: 50%;
+            padding: 2em;
+        }
+        
+        .typography:last-child {
+            width: 100%;
+        }
+    }
+
+    @media screen and (min-width: 900px) {
+        .typography {
+            width: 33%;
+            padding: 2em;
+        }
+    }
+
+    /* Stickers */
+
+    .sticker_container {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+/* COLORS AND TEXTURES */
+
+    .colors_and_textures {
+        padding-top: 2em;
+    }
+
+    .cheese {
+        background-image: url(../img/cheese_background.jpg);
+        background-size: cover;
+        background-position: center center;
+        box-shadow: 0px 10px 15px #888888;
+    }
+
+    .pepperoni {
+        background-image: url(../img/pepperoni_background.png);
+        background-size: cover;
+        background-position: center center;
+        box-shadow: 0px 10px 15px #888888;
+    }
+
+footer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 60px;
+    display: none;
+}
