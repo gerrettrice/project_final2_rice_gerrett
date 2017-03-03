@@ -16,7 +16,7 @@
 
 * [CSS Transitions](https://www.w3schools.com/css/css3_transitions.asp)
 
-        Sometimes I need to check the proper construction of transitions. I specifically needed to reference how to make sure the transition reversed when the mouse no longer hovered over the element. I realized you need to put the transition timing and timing function on the element itself, not on the hover pseudo element.
+    Sometimes I need to check the proper construction of transitions. I specifically needed to reference how to make sure the transition reversed when the mouse no longer hovered over the element. I realized you need to put the transition timing and timing function on the element itself, not on the hover pseudo element.
 
 * [Google Fonts](https://fonts.google.com/)
 
