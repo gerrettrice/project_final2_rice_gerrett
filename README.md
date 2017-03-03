@@ -52,4 +52,4 @@ I reviewed the list of deductions for this project and in the syllabus.
 
 # Comments
 
-No comments
+As you saw from my presentation on Tuesday, I had most of my site complete. Because I was reading the instructions for the prototype, I didn't get down to "project setup" and didn't see the instructions regarding the repo. I should've created a repo and had more commits as I went along, but this didn't occur to me until I was getting ready to turn the project in and had to clean up the code. I just wanted to explain why there were so few commits.
