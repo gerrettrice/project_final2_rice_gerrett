@@ -29,6 +29,21 @@ h2 {
     font-weight: 700;
 }
 
+h3 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 2em;
+    color: #cc3333;
+    font-weight: 900;
+    text-shadow: 0 1px 5px #888888;
+}
+
+h4 {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.25em;
+    color: #ff9933;
+    font-weight: 700;
+}
+
 p {
     font-family: "Raleway", sans-serif;
     color: #333333;
@@ -39,6 +54,10 @@ hr {
     width: 80%;
     border: 1px solid grey;
     box-shadow: 0 2px 6px #888888;
+}
+
+.hidden {
+    display: none;
 }
 
 .container {
